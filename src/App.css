@@ -1,0 +1,36 @@
+/* App.css - Tema Azul Oscuro Corregido */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #0a192f;
+  color: #e6f1ff;
+  min-height: 100vh;
+  line-height: 1.6;
+  overflow-x: hidden; /* Prevenir scroll horizontal no deseado */
+}
+
+#root {
+  min-height: 100vh;
+  width: 100%;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #0a192f;
+  width: 100%;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  background: rgba(10, 25, 47, 0.95);
+  width: 100%;
+  min-width: 100%;
+}

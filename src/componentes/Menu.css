@@ -1,0 +1,26 @@
+
+.menu {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid #e9ecef;
+}
+
+.menu-link {
+  margin: 0 1rem;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: #495057;
+  font-weight: 500;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.menu-link:hover {
+  background-color: #e9ecef;
+  color: #007bff;
+}
+
+.menu-link:first-child {
+  margin-left: 0;
+}

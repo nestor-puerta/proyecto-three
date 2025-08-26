@@ -1,0 +1,211 @@
+
+.page {
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  color: #e6f1ff;
+  background: rgba(10, 25, 47, 0.8);
+  border-radius: 12px;
+  margin-top: 20px;
+  box-sizing: border-box;
+  min-width: 0; 
+}
+
+.page h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #64ffda;
+  border-bottom: 2px solid #64ffda;
+  padding-bottom: 0.5rem;
+  word-wrap: break-word; 
+}
+
+.page h2 {
+  color: #64ffda;
+  font-size: 2rem;
+  margin: 1.5rem 0 1rem 0;
+  word-wrap: break-word;
+}
+
+.page h3 {
+  color: #4fd1c5;
+  font-size: 1.5rem;
+  margin: 1.2rem 0 0.8rem 0;
+  word-wrap: break-word;
+}
+
+.section {
+  background: rgba(17, 34, 64, 0.8);
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  border-left: 4px solid #64ffda;
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin: 1.5rem 0;
+  border: 2px solid #64ffda;
+}
+
+.code {
+  background: #1d2d44;
+  color: #e6f1ff;
+  padding: 20px;
+  border-radius: 8px;
+  overflow-x: auto; 
+  margin: 1rem 0;
+  border-left: 4px solid #64ffda;
+  font-family: 'Fira Code', monospace;
+  width: 100%;
+  box-sizing: border-box;
+  white-space: pre-wrap; /* Permitir que el código se ajuste */
+  word-wrap: break-word;
+}
+
+/* Contenedor para código que necesita scroll horizontal */
+.code-container {
+  width: 100%;
+  overflow-x: auto;
+  margin: 1rem 0;
+}
+
+.code-scroll {
+  min-width: min-content; /* Mínimo ancho necesario */
+  padding: 20px;
+  background: #1d2d44;
+  border-radius: 8px;
+  border-left: 4px solid #64ffda;
+  font-family: 'Fira Code', monospace;
+  white-space: pre; /* Mantener formato original */
+}
+
+button {
+  background: #64ffda;
+  color: #0a192f;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  margin: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  white-space: nowrap; /* Evitar que el texto del botón se divida */
+}
+
+button:hover {
+  background: transparent;
+  color: #64ffda;
+  border: 2px solid #64ffda;
+}
+
+input {
+  background: rgba(136, 146, 176, 0.1);
+  border: 2px solid #64ffda;
+  color: #e6f1ff;
+  padding: 12px 16px;
+  border-radius: 6px;
+  margin: 8px;
+  font-size: 1rem;
+  width: 300px;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+input:focus {
+  outline: none;
+  border-color: #4fd1c5;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+  width: 100%;
+}
+
+.card {
+  background: rgba(17, 34, 64, 0.8);
+  padding: 2rem;
+  border-radius: 12px;
+  border: 1px solid #64ffda;
+  text-decoration: none;
+  color: inherit;
+  box-sizing: border-box;
+  min-width: 0; /* Previene overflow en grid */
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(100, 255, 218, 0.2);
+}
+
+.button-group {
+  display: flex;
+  gap: 1rem;
+  margin: 1.5rem 0;
+  flex-wrap: wrap; /* Permitir que los botones se ajusten */
+}
+
+/* Estilos específicos para el ejemplo de Virtual DOM */
+.virtual-dom-example {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.input-group {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+  align-items: center;
+  flex-wrap: wrap; /* Ajustar en pantallas pequeñas */
+  width: 100%;
+}
+
+.items-list {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.items-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  border-bottom: 1px solid #64ffda;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.explanation {
+  background: rgba(255, 193, 7, 0.1);
+  padding: 1rem;
+  border-radius: 6px;
+  border-left: 4px solid #ffc107;
+  margin: 1rem 0;
+  font-style: italic;
+  width: 100%;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+
+/* Utilidades para prevenir overflow */
+.break-word {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.min-width-0 {
+  min-width: 0;
+}
+
+.width-100 {
+  width: 100%;
+}

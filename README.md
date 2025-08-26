@@ -1,12 +1,48 @@
-# React + Vite
+# 🚀 Proyecto Educativo de React - Conceptos Fundamentales
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React-18.2.0-61DAFB?style=for-the-badge&logo=react)
+![Vite](https://img.shields.io/badge/Vite-4.4.0-646CFF?style=for-the-badge&logo=vite)
+![React Router](https://img.shields.io/badge/React_Router-6.0-CA4245?style=for-the-badge&logo=react-router)
 
-Currently, two official plugins are available:
+Una aplicación web educativa construida con React y Vite que explica y ejemplifica los conceptos fundamentales de React through de una interfaz interactiva y didáctica.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📖 Descripción
 
-## Expanding the ESLint configuration
+Este proyecto tiene como objetivo enseñar los conceptos core de React de manera visual y práctica. Cada concepto cuenta con:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Explicación teórica** clara y concisa
+- **Ejemplos de código** implementados en React
+- **Demostraciones interactivas** en vivo
+- **Imágenes ilustrativas** para mejor comprensión
+
+## 🎯 Conceptos Cubiertos
+
+1. **Props** - Comunicación entre componentes
+2. **State** - Manejo de estado local
+3. **Ciclo de Vida** - Fases de componentes (class y functional)
+4. **Hooks** - useState, useEffect, useContext
+5. **Virtual DOM** - Funcionamiento y optimizaciones
+6. **Redux** - Gestión de estado global (simulado)
+
+## 🛠️ Tecnologías Utilizadas
+
+- **Frontend Framework:** React 18.2.0
+- **Build Tool:** Vite 4.4.0
+- **Routing:** React Router DOM 6.0
+- **Styling:** CSS3 con diseño azul oscuro
+- **Icons:** React Icons (opcional, si se añaden)
+- **Deployment:** GitHub Pages / Vercel / Netlify
+
+## 📦 Instalación y Configuración
+
+### Prerrequisitos
+- Node.js 16+ 
+- npm o yarn
+- Git
+
+### Pasos para instalar
+
+1. **Clonar el repositorio**
+   ```bash
+   git clone https://github.com/tu-usuario/react-educational-project.git
+   cd react-educational-project

@@ -5,7 +5,7 @@ import './Menu.css';
 const Menu = () => {
   return (
     <nav className="menu">
-      <Link to="/Inicio" className="menu-link">Inicio</Link>
+      <Link to="/" className="menu-link">Inicio</Link>
       <Link to="/props" className="menu-link">Props</Link>
       <Link to="/state" className="menu-link">State</Link>
       <Link to="/lifecycle" className="menu-link">Ciclo de Vida</Link>

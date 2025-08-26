@@ -11,7 +11,7 @@ import Redux from "../pages/Redux";
 const Rutas = () => {
   return (
     <Routes>
-      <Route path="/Inicio" element={<Inicio />} />
+      <Route path="/" element={<Inicio />} />
       <Route path="/props" element={<Props />} />
       <Route path="/state" element={<State />} />
       <Route path="/lifecycle" element={<Lifecycle />} />
